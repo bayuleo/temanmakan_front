@@ -28,8 +28,17 @@
 }
 .teman-sekitar{
     background-color: darkcyan;
+    color: white;
+    height: 300px;
 }
 
 .makan-rame{
     background-color: darkcyan;
+    color: white;
+    height: 300px;
+}
+
+.petunjuk{
+    text-align: right;
+    padding: 5px 10px;
 }

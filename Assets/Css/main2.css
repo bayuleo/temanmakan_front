@@ -1,8 +1,35 @@
+.main-content-home{
+    margin-top: 30px;
+    /* color: white; */
+}
 .status-makan{
-    background-color: brown;
+    background-color: darkcyan;
+    height: 150px;
+    text-align: center;
 }
 
 .todo-list{
-    background-color: brown;
-    height: 100px;
+    background-color: darkcyan;
+    height: 150px;
+    box-shadow: 20px grey;
+}
+
+.text-content{
+    color: white;
+}
+
+.main-content-home h5{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.second-content-home{
+    padding-top: 15px;
+}
+.teman-sekitar{
+    background-color: darkcyan;
+}
+
+.makan-rame{
+    background-color: darkcyan;
 }

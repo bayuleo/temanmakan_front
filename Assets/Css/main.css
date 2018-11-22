@@ -7,3 +7,72 @@
     color: #f0f3bd;
 }   
 /* End Color Pallete */
+
+body{
+    margin: 0 0 0 0;
+}
+
+.header{
+    position: relative;
+    height: 100px;
+    color: white;
+    background-color: #000000;
+}
+
+.row-header{
+    height: 100px;
+    text-align: center;
+}
+
+.header-logo{
+    margin: auto;
+    float: left;
+}
+
+.header-navbar{
+    margin: auto;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.header li {
+    float: right;
+}
+
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header li a:hover {
+    background-color: #111;
+}
+
+.landing-page-main form{
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.show-image{
+    margin: auto;
+    text-align: center;
+}
+
+.welcome-title{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.welcome-title img{
+    max-height: 100px;
+    padding: 10px 0;
+}

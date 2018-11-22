@@ -4,8 +4,39 @@
 }
 .status-makan{
     background-color: darkcyan;
-    height: 150px;
     text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.status-makan hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 0 20px 0 20px;
+}
+
+.status-makan h4{
+    margin-bottom: 0px;
+}
+
+meter{
+    width: 80%;
+    margin: 20px 0px 10px 0px;
+}
+
+#option-ingin-makan{
+    padding-left: 0;
+}
+
+.status-available{
+    padding: 10px 40px;
+    min-width: 100px;
+}
+
+#lagi-ingin-makan{
+    margin: auto;
 }
 
 .todo-list{

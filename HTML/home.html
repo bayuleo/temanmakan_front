@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,39 +9,75 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../Assets/Css/main2.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../Assets/Css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../Assets/Css/bootstrap.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <script src="main.js"></script>
 </head>
+
 <body>
-        <div class="header">
-                <div class="container">
-                    <div class="row row-header">
-                        <div class="col-md-4 col-xs-6 border header-logo">
-                            Logo
-                        </div>
-                        <div class="col-md-8 col-xs-6 border header-navbar">
-                            <ul>
-                                <li><a href="#">Register</a></li>
-                                <li><a href="#">Login</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Home</a></li>
-                            </ul>
-                        </div>
-                    </div>
+    <div class="header">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-md-4 col-xs-6 border header-logo">
+                    Logo
+                </div>
+                <div class="col-md-8 col-xs-6 border header-navbar">
+                    <ul>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Home</a></li>
+                    </ul>
                 </div>
             </div>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="row main-content-home">
             <div class="col-4" style="padding-right:0">
                 <div class="status-makan text-content">
-                    <h5><strong>Tria A</strong></h5>
+                    <span><strong>Tria A</strong></span><br />
+                    <span>Malang, Jawa Timur</span><br />
+                    <span>Indonesia</span>
+                    <hr>
+                    <div class="status-available">
+                        <form>
+                            <select class="form-control" id="sel1">
+                                <option>Makan Quy...</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="row status-available">
+                        <div class="col-md-8" id="lagi-ingin-makan">
+                            <span>Lagi ingin makan makanan : </span>
+                        </div>
+                        <div class="col-md-4" id="option-ingin-makan">
+                            <form>
+                                <select class="form-control">
+                                    <option>Korean</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="status-makan text-content">
+                    <h4>PROFILKU</h4>
+                    <hr>
+                    <meter value="0.6">60%</meter><br/>
+                    <span class="lengkapi-profile">Lengkapi Profilku</span>
                 </div>
             </div>
             <div class="col-8">
                 <div class="todo-list text-content">
-                    <h5>TO-DO  LIST</h5>
+                    <h5>TO-DO LIST</h5>
                 </div>
-                
+
                 <div class="container-fluid second-content-home">
                     <div class="row">
                         <div class="col-sm-6">
@@ -59,4 +96,5 @@
         </div>
     </div>
 </body>
+
 </html>

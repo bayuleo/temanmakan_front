@@ -74,6 +74,7 @@ body{
 .profile-left img{
     max-height: 200px;
     padding: 10px;
+    width: 100%;
 }
 
 .welcome-title{
@@ -101,6 +102,10 @@ body{
     .profile-right .row{
         margin-left: 0px;
     }
+
+    .referensi img{
+        text-align: left;
+    }
 }
 
 
@@ -120,4 +125,9 @@ body{
 
 .grade-status{
     font-size: 30px;
+}
+
+.referensi img{
+    max-height: 100px;
+    padding: 10px 0;
 }

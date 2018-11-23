@@ -1,5 +1,7 @@
 .friend-profile-right{
     background-color: darkcyan;
+    margin-right: 0px;
+    padding: 0 15px;
 }
 
 .friend-profile-right .pesan-button{

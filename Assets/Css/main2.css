@@ -27,7 +27,8 @@ meter{
 }
 
 #option-ingin-makan{
-    padding-left: 0;
+    /* padding-left: 0; */
+    margin: auto;
 }
 
 .status-available{
@@ -37,6 +38,7 @@ meter{
 
 #lagi-ingin-makan{
     margin: auto;
+    padding: 0;
 }
 
 .todo-list{
@@ -72,9 +74,24 @@ meter{
 .second-content-home{
     padding-top: 15px;
 }
+
+.second-content-home img{
+    float: left;
+    margin: 5px 10px;
+}
+
+.span-teman-makan{
+    margin-top: 5px;
+}
+
+.span-group-makan{
+    margin-top: 5px;
+}
+
 .teman-sekitar{
     background-color: darkcyan;
     color: white;
+    padding: auto   0;
 }
 
 .makan-rame{
@@ -83,12 +100,14 @@ meter{
 }
 
 .petunjuk{
-    text-align: right;
-    padding: 5px 10px;
+    /* text-align: right;
+    padding: 5px 10px; */
 }
 
 .teman-sekitar .row{
     margin: auto;
+
+    padding: 5px 0;
 }
 
 .ikon-teman{
@@ -97,6 +116,7 @@ meter{
 
 .makan-rame .row{
     margin: auto;
+    padding: 5px 0;
 }
 
 .set-bawahnya{
@@ -117,4 +137,39 @@ meter{
     border: 0;
     border-top: 2px solid #ccc;
     margin: 10px 20px 10px 20px;
+}
+
+.button-petunjuk{
+    padding-left: 0px !important;
+    margin: auto;
+}
+
+.todo-list img{
+    float: left;
+    margin: 5px 10px;
+}
+
+.todo-list h6{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.kolom-makan-left{
+    padding-left: 0px !important;
+}
+.kolom-makan-right{
+    padding-right: 0px !important; 
+}
+
+@media (max-width: 992px) {
+    .kolom-makan-left{
+        padding: 5px 0px !important;
+    }
+    .kolom-makan-right{
+        padding: 5px 0px !important;
+    }
+}
+
+.button-teman{
+    padding-left: 0 !important;
 }

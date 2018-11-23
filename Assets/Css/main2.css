@@ -41,8 +41,23 @@ meter{
 
 .todo-list{
     background-color: darkcyan;
-    height: 150px;
     box-shadow: 20px grey;
+}
+
+.todo-list hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 10px 20px 10px 20px;
+}
+
+.todo-list .row{
+    margin: auto;
+}
+
+.todo-list h5{
+    margin: auto;
 }
 
 .text-content{
@@ -60,16 +75,46 @@ meter{
 .teman-sekitar{
     background-color: darkcyan;
     color: white;
-    height: 300px;
 }
 
 .makan-rame{
     background-color: darkcyan;
     color: white;
-    height: 300px;
 }
 
 .petunjuk{
     text-align: right;
     padding: 5px 10px;
+}
+
+.teman-sekitar .row{
+    margin: auto;
+}
+
+.ikon-teman{
+    margin: auto;
+}
+
+.makan-rame .row{
+    margin: auto;
+}
+
+.set-bawahnya{
+    padding-bottom: 10px;
+}
+
+.teman-sekitar hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 10px 20px 10px 20px;
+}
+
+.makan-rame hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 10px 20px 10px 20px;
 }

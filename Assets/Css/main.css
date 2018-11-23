@@ -67,6 +67,15 @@ body{
     text-align: center;
 }
 
+.text-left{
+    padding: 10px;
+}
+
+.profile-left img{
+    max-height: 200px;
+    padding: 10px;
+}
+
 .welcome-title{
     text-align: center;
     padding: 10px 0;
@@ -77,3 +86,32 @@ body{
     padding: 10px 0;
 }
 
+#upgrade-verifikasi{
+    margin: 20px 10px 10px 10px;
+    text-align: center;
+}
+
+.profile-right .row{
+    margin-bottom: 10px;
+    background-color: #028090;
+    margin-right: 0px;
+}
+
+
+.edit-profile{
+    margin: auto;
+}
+
+.profile-right h4{
+    width: 100%;
+    padding: 10px 15px;
+    border: solid 2px black;
+}
+
+.tentangku p{
+    padding: 0px 15px;
+}
+
+.grade-status{
+    font-size: 30px;
+}

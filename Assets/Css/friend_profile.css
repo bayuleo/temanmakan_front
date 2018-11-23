@@ -1,0 +1,32 @@
+.friend-profile-right{
+    background-color: darkcyan;
+}
+
+.friend-profile-right .pesan-button{
+    margin: auto;
+}
+
+.kolom-pesan{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    /* height: 100%; */
+    margin: auto;
+    /* margin-bottom: 0px; */
+}
+.pesan-button{
+    padding: 10px 0;
+}
+
+#pesan-button{
+    max-width: 100px;
+}
+
+.pesan-box{
+    padding: 10px;
+    margin : 10px;
+}
+
+.pesan-text{
+    margin-top: 10px;
+}

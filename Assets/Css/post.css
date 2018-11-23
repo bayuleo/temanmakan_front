@@ -20,7 +20,7 @@
 
 .post-text{
     margin-top: 10px;
-    max-width: 700px;
+    /* max-width: 700px; */
 }
 
 .post-button{
@@ -35,12 +35,16 @@
     display: block;
     width: 95%;
     padding: 10px 20px;
-    height: 100px;
+    height: 100%;
     margin: auto;
     margin-bottom: 0px;
     /* margin: 10px; */
 }
 
-.btn{
+.btn {
     width: 100%;
+}
+
+.gambar-post{
+    width: 95%;
 }

@@ -27,8 +27,14 @@ meter{
 }
 
 #option-ingin-makan{
-    /* padding-left: 0; */
+    padding-left: 0;
     margin: auto;
+}
+
+@media (max-width: 992px) {
+    #option-ingin-makan{
+        padding-left: 15px;
+    }
 }
 
 .status-available{
@@ -87,8 +93,6 @@ meter{
 .span-group-makan{
     margin-top: 5px;
 }
-
-
 
 .teman-sekitar{
     background-color: darkcyan;
@@ -199,7 +203,7 @@ meter{
 
 @media (max-width: 767px) {
     .profile-right{
-        padding-left: 15px !important;
+        padding-left: 0px !important;
     }
 }
 

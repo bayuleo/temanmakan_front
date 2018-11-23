@@ -73,6 +73,7 @@ body{
 .profile-left img{
     max-height: 200px;
     padding: 10px;
+    width: 100%;
 }
 
 .welcome-title{
@@ -99,6 +100,10 @@ body{
 @media (max-width: 767px) {
     .profile-right .row{
         margin-left: 0px;
+    }
+
+    .referensi img{
+        text-align: left;
     }
 }
 
@@ -173,3 +178,7 @@ body{
   .insearch > .button:hover {
     background-color: rgba(0, 150, 136, 0.8);
   }
+.referensi img{
+    max-height: 100px;
+    padding: 10px 0;
+}

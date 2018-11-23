@@ -6,7 +6,7 @@
     background-color: darkcyan;
     text-align: center;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .status-makan hr{
@@ -88,6 +88,8 @@ meter{
     margin-top: 5px;
 }
 
+
+
 .teman-sekitar{
     background-color: darkcyan;
     color: white;
@@ -168,4 +170,39 @@ meter{
 
 .button-teman{
     padding-left: 0 !important;
+}
+
+.navbar-pesan{
+    padding: 10px 0;
+}
+
+.navbar-pesan h5{
+    padding: 0;
+}
+
+.navbar-pesan img{
+    float: left;
+    margin-right: 10px;
+}
+
+.kolom-pesan{
+    min-height: 100px;
+}
+
+.profile-right{
+    padding-left: 0 !important;
+}
+
+.friend-profile-right{
+    padding-left: 0;
+}
+
+@media (max-width: 767px) {
+    .profile-right{
+        padding-left: 15px !important;
+    }
+}
+
+.komen{
+    padding: 10px 10px;
 }

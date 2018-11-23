@@ -24,9 +24,10 @@
     max-width: 100px;
 }
 
-.pesan-box{
-    padding: 10px;
-    margin : 10px;
+.pesan-box .row{
+    /* padding: 10px; */
+    /* margin : 10px; */
+    margin-left: 0 ;
 }
 
 .pesan-text{

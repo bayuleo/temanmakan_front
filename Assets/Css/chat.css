@@ -1,0 +1,54 @@
+
+.top-chat{
+    padding: 10px;
+}
+
+.top-chat h5{
+    display: inline;
+    padding-top: 20px !important;
+}
+
+.avatar-list img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.avatar-list{
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.avatar-guest{
+    float: left;
+}
+
+.avatar-self{
+    float: right;
+}
+
+.desc-chat{
+    padding: 0 60px;
+}
+
+
+.chat-text-block{
+    padding: 5px 0;
+}
+
+.chat-text-cover{
+    display: inline-block;
+    background: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.chat-time{
+    font-size: 10px;
+}
+
+.conversation-item{
+    padding: 0 10px;
+    min-width: 230px;
+}

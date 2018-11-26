@@ -1,0 +1,16 @@
+.petunjuk-keselamatan p{
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+.title-petunjuk{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.petunjuk-keselamatan span{
+    text-align: left;
+    padding: 5px 20px;
+    display: block;
+}

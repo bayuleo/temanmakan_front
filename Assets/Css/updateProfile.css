@@ -1,0 +1,27 @@
+.title-update-profile h2{
+    display: inline;
+}
+
+.title-update-profile{
+    padding: 10px;
+}
+
+.update-profile input, textarea{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%
+}
+
+.update-profile textarea{
+    min-height: 100px;
+}
+
+.form-update-profile{
+    padding: 10px 10% !important;
+    /* text-align: center; */
+}
+
+.form-update-profile button{
+    width: 40%;
+}

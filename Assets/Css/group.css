@@ -57,6 +57,7 @@
 .desc-participant{
     height: 100%;
     padding-left: 60px;
+    margin: 0 !important;
 }
 
 @media (max-width: 767px) {
